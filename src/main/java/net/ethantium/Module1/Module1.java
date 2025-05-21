@@ -1,6 +1,9 @@
 package net.ethantium.Module1;
 
 import com.mojang.logging.LogUtils;
+import net.ethantium.Module1.block.ModBlocks;
+import net.ethantium.Module1.item.ModCreativeModeTabs;
+import net.ethantium.Module1.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -43,13 +46,19 @@ public class Module1 {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        // register items
+        ModItems.register(modEventBus);
+
+        // register blocks
+        ModBlocks.register(modEventBus);
+
+        // register creative mode tab
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
-
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -60,7 +69,10 @@ public class Module1 {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.AZURITE);
+            event.accept(ModItems.RAW_AZURITE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

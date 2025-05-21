@@ -1,0 +1,9 @@
+{
+  "values": [
+    "module1:azurite_block",
+    "module1:azurite_ore",
+    "module1:azurite_deepslate_ore",
+    "module1:azurite_nether_ore",
+    "module1:azurite_end_ore"
+  ]
+}
