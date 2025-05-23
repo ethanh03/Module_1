@@ -1,13 +1,32 @@
 {
   "item.module1.azurite": "Azurite",
   "item.module1.raw_azurite": "Raw Azurite",
+  "item.module1.chainsaw": "Chainsaw",
+  "item.module1.onion": "Onion",
+  "item.module1.magic_onion": "\u00A7kMagic Onion",
+  "item.module1.aurora_ashes": "Aurora Ashes",
 
   "block.module1.azurite_block": "Azurite Block",
   "block.module1.azurite_ore": "Azurite Ore",
   "block.module1.azurite_deepslate_ore": "Azurite Deepslate Ore",
   "block.module1.azurite_end_ore": "Azurite End Ore",
   "block.module1.azurite_nether_ore": "Azurite Nether Ore",
+  "block.module1.magic_block": "Magic Block",
+  "block.module1.azurite_stairs": "Azurite Stairs",
+  "block.module1.azurite_slab": "Azurite Slab",
+  "block.module1.azurite_pressure_place": "Azurite Pressure Plate",
+  "block.module1.azurite_button": "Azurite Button",
+  "block.module1.azurite_fence": "Azurite Fence",
+  "block.module1.azurite_fence_gate": "Azurite Fence Gate",
+  "block.module1.azurite_wall": "Azurite Wall",
 
   "creativetab.azurite_items": "Azurite Items",
-  "creativetab.azurite_blocks": "Azurite Blocks"
+  "creativetab.azurite_blocks": "Azurite Blocks",
+
+  "tooltip.module1.chainsaw.tooltip.shift": "Press shift for more info!",
+  "tooltip.module1.chainsaw.tooltip.1": "Right click to break logs",
+  "tooltip.module1.chainsaw.tooltip.2": "VROOOM",
+  "tooltip.module1.magic_block.tooltip.1": "Throw azurite on this item for a surprise",
+  "tooltip.module1.onion.tooltip.1": "Tastes not bad for an onion",
+  "tooltip.module1.magic_onion.tooltip.1": "This onion has been returned from a magical dimension and holds magical powers"
 }
