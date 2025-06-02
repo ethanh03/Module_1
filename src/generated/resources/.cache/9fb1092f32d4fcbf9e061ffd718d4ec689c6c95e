@@ -1,4 +1,4 @@
-// 1.21	2025-05-22T18:50:15.693341	Recipes
+// 1.21	2025-06-01T21:41:54.3752482	Recipes
 7a03ea9ac548d041548c7aae17a0c1918ddf18fb data/module1/advancement/recipes/building_blocks/azurite_slab.json
 d634b13705e1ad088b61f4389187bc85aa62fa60 data/module1/advancement/recipes/building_blocks/azurite_stairs.json
 13f8117e189c372e83d81e72cf210a2d3a1a7dc0 data/module1/advancement/recipes/building_blocks/azurite_wall.json
@@ -16,11 +16,14 @@ f2c501da149383a8b8c41a66b0f38ca199519a85 data/module1/advancement/recipes/misc/a
 75e819a01c5898bc156fa680bd9f524c1ebf94ca data/module1/advancement/recipes/misc/azurite_from_smelting_azurite_ore.json
 d22812c44fff72e54e1df17ece4138b36edd2456 data/module1/advancement/recipes/misc/azurite_from_smelting_raw_azurite.json
 752601e06a5824a6a2e4b62aff93736e6b1ebd96 data/module1/advancement/recipes/redstone/azurite_button.json
+c7ec9326c7736b602b4d262abdb587200bfb5c89 data/module1/advancement/recipes/redstone/azurite_door.json
 1d3613646e3ad4eb2ae951c3c41a44b74997fb33 data/module1/advancement/recipes/redstone/azurite_fence_gate.json
 1612524ec69e2ae822775820892bbafa33dc6cc2 data/module1/advancement/recipes/redstone/azurite_pressure_plate.json
+bd2f0a41915358cff7b593080d7ca1f3f6d1dff6 data/module1/advancement/recipes/redstone/azurite_trapdoor.json
 c5c3d55c502f85c05cb8479802e48df43654e982 data/module1/recipe/azurite.json
 89b5c879b39829c6dccd9a2b43abb9671a7bf2ed data/module1/recipe/azurite_block.json
 0413fa2165edd930e8d3894f5b72f77a881c9a6c data/module1/recipe/azurite_button.json
+63bf60612a50af14a06f519829636f80465db38b data/module1/recipe/azurite_door.json
 0becb613ca129e7b6ba605cc52120008c9d952b6 data/module1/recipe/azurite_fence.json
 85f5b82d80b937f5b955ebd7ca5c8e0965fdd5a0 data/module1/recipe/azurite_fence_gate.json
 44adce3eba0ab1104838a1c2cfac077e6b8678c6 data/module1/recipe/azurite_from_blasting_azurite_deepslate_ore.json
@@ -36,4 +39,5 @@ e0dcb796ab8b7e1cfd5af2ae7d79a7bfcf4b2cac data/module1/recipe/azurite_from_smelti
 d89177d00dd161f407dd9d8aab0c1a5f0e18ff6e data/module1/recipe/azurite_pressure_plate.json
 b401040beb7d30b3ca6323b49b310364592ba761 data/module1/recipe/azurite_slab.json
 7bb531e50d1ea5e635b6d2b0cf8b43e166fd50aa data/module1/recipe/azurite_stairs.json
+49a9773b07761be1a09598aa9534d1298151d5f2 data/module1/recipe/azurite_trapdoor.json
 d7302afbbc6cc533d31b6062180b7c801503b33b data/module1/recipe/azurite_wall.json

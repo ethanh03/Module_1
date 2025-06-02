@@ -40,6 +40,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wallBlock(((WallBlock) ModBlocks.AZURITE_WALL.get()), blockTexture(ModBlocks.AZURITE_BLOCK.get()));
 
         blockItem(ModBlocks.AZURITE_FENCE_GATE);
+
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.AZURITE_DOOR.get()), modLoc("block/azurite_door_bottom"), modLoc("block/azurite_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.AZURITE_TRAPDOOR.get()), modLoc("block/azurite_trapdoor"), true, "cutout");
+        blockItem(ModBlocks.AZURITE_TRAPDOOR, "_bottom");
+
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

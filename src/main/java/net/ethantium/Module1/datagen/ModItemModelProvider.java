@@ -5,6 +5,7 @@ import net.ethantium.Module1.block.ModBlocks;
 import net.ethantium.Module1.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -29,6 +30,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         buttonItem(ModBlocks.AZURITE_BUTTON, ModBlocks.AZURITE_BLOCK);
         fenceItem(ModBlocks.AZURITE_FENCE, ModBlocks.AZURITE_BLOCK);
         wallItem(ModBlocks.AZURITE_WALL, ModBlocks.AZURITE_BLOCK);
+
+        simpleBlockItem(ModBlocks.AZURITE_DOOR);
+
+        handheldItem(ModItems.AZURITE_SWORD);
+        handheldItem(ModItems.AZURITE_PICKAXE);
+        handheldItem(ModItems.AZURITE_AXE);
+        handheldItem(ModItems.AZURITE_SHOVEL);
+        handheldItem(ModItems.AZURITE_HOE);
     }
 
     public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
@@ -52,6 +61,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Module1.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/handheld")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Module1.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

@@ -37,6 +37,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.AZURITE_FENCE.get());
         dropSelf(ModBlocks.AZURITE_FENCE_GATE.get());
         dropSelf(ModBlocks.AZURITE_WALL.get());
+        dropSelf(ModBlocks.AZURITE_TRAPDOOR.get());
+
+        this.add(ModBlocks.AZURITE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.AZURITE_DOOR.get()));
 
         this.add(ModBlocks.AZURITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.AZURITE_SLAB.get()));

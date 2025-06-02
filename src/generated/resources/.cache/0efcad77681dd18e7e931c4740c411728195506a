@@ -1,8 +1,14 @@
-// 1.21	2025-05-22T18:50:15.692139	Item Models: module1
+// 1.21	2025-06-01T23:15:02.3191112	Item Models: module1
 22229d2e1dca174ad2adf37ff257a5ea9f9322bb assets/module1/models/item/aurora_ashes.json
 5ad83aa13967822a71e8d26507e10693cd641e7b assets/module1/models/item/azurite.json
+10397babdf28227ed079838494da389cf990d787 assets/module1/models/item/azurite_axe.json
 bec63821db9dccb9462acf271e577e2dca0526e7 assets/module1/models/item/azurite_button.json
+bdf0d3b4a2bf7d66311d836bd3390aab2d119586 assets/module1/models/item/azurite_door.json
 e60dda874ad82452231e99470b3254c08600f604 assets/module1/models/item/azurite_fence.json
+bc8c6ee2b88600c2c554916fd5f675e4726c1260 assets/module1/models/item/azurite_hoe.json
+02e403ff99139f27c18ccc32db29e8af42bb96a3 assets/module1/models/item/azurite_pickaxe.json
+0de5086cc23744d645ff934a62b6842651fd5324 assets/module1/models/item/azurite_shovel.json
+37bb329384bf89fae74b99c158d3f31b66e4ab4c assets/module1/models/item/azurite_sword.json
 7250a113a15e9d91a22d3d278a6c913e113d95a6 assets/module1/models/item/azurite_wall.json
 0e6c14c23fda41d5d2e95f540136fbba3f35b1ff assets/module1/models/item/chainsaw.json
 567ecd73be2156a4bb441320bfadf8d9e048281c assets/module1/models/item/magic_onion.json

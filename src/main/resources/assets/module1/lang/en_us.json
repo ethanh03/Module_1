@@ -6,6 +6,12 @@
   "item.module1.magic_onion": "\u00A7kMagic Onion",
   "item.module1.aurora_ashes": "Aurora Ashes",
 
+  "item.module1.azurite_sword": "Azurite Sword",
+  "item.module1.azurite_pickaxe": "Azurite Pickaxe",
+  "item.module1.azurite_axe": "Azurite Axe",
+  "item.module1.azurite_shovel": "Azurite Shovel",
+  "item.module1.azurite_hoe": "Azurite Hoe",
+
   "block.module1.azurite_block": "Azurite Block",
   "block.module1.azurite_ore": "Azurite Ore",
   "block.module1.azurite_deepslate_ore": "Azurite Deepslate Ore",
@@ -19,6 +25,8 @@
   "block.module1.azurite_fence": "Azurite Fence",
   "block.module1.azurite_fence_gate": "Azurite Fence Gate",
   "block.module1.azurite_wall": "Azurite Wall",
+  "block.module1.azurite_door": "Azurite Door",
+  "block.module1.azurite_trapdoor": "Azurite Trapdoor",
 
   "creativetab.azurite_items": "Azurite Items",
   "creativetab.azurite_blocks": "Azurite Blocks",
