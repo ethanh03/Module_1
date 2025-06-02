@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "azurite",
+  "ingredients": [
+    {
+      "item": "module1:azurite_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "module1:azurite_button"
+  }
+}

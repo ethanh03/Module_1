@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 999999.0,
+  "group": "azurite",
+  "ingredient": {
+    "item": "module1:azurite_deepslate_ore"
+  },
+  "result": {
+    "id": "module1:azurite"
+  }
+}

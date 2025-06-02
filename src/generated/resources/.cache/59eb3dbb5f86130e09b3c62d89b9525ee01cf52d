@@ -1,0 +1,14 @@
+// 1.21	2025-05-22T18:50:15.69282	Loot Tables
+8558dce98857c32e138c7ebddc21355ac4848071 data/module1/loot_table/blocks/azurite_block.json
+b234761fdc72433bd89af9f2e4fb270d4f7e6466 data/module1/loot_table/blocks/azurite_button.json
+ac0e1d0cf06fcec275f545c798b66c53b1b6e929 data/module1/loot_table/blocks/azurite_deepslate_ore.json
+4512ca18534ac6bebdaa52a96c1db2e97ea887b6 data/module1/loot_table/blocks/azurite_end_ore.json
+3fd1b111a01dcd20a656b058b85553782305af3b data/module1/loot_table/blocks/azurite_fence.json
+435be8d4467b9e990377303f3c87a5ad89653e8d data/module1/loot_table/blocks/azurite_fence_gate.json
+05851995d375aa7534135cf6fe674f9eeab0b975 data/module1/loot_table/blocks/azurite_nether_ore.json
+9931617997761faa204dd0aeaef75bd51073fb35 data/module1/loot_table/blocks/azurite_ore.json
+383579cf36087cc9f7018fb7b88d093fa2927050 data/module1/loot_table/blocks/azurite_pressure_plate.json
+4821660909741e505819ec3c1f6aed72334ab924 data/module1/loot_table/blocks/azurite_slab.json
+4d12d3934bedcda65b62138a7e13597a14aaf695 data/module1/loot_table/blocks/azurite_stairs.json
+2e17a61a1c32522c6c62a08782c9164aa0110915 data/module1/loot_table/blocks/azurite_wall.json
+a1fd6866c829d26b202b1b6d36abc797d7f44b09 data/module1/loot_table/blocks/magic_block.json

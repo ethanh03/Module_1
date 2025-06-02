@@ -1,0 +1,27 @@
+[22May2025 18:49:56.872] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, /Users/ethanharris/.gradle/caches/forge_gradle/assets, --gameDir, ., --mod, module1, --all, --output, /Users/ethanharris/Documents/Mods/Module_1/src/generated/resources, --existing, /Users/ethanharris/Documents/Mods/Module_1/src/main/resources]
+[22May2025 18:49:56.875] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[22May2025 18:49:56.880] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.4 by Eclipse Adoptium; OS Mac OS X arch x86_64 version 14.6.1
+[22May2025 18:49:57.088] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[22May2025 18:49:57.364] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///Users/ethanharris/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[22May2025 18:49:58.852] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22May2025 18:50:00.955] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, /Users/ethanharris/.gradle/caches/forge_gradle/assets, --assetIndex, 17, --mod, module1, --all, --output, /Users/ethanharris/Documents/Mods/Module_1/src/generated/resources, --existing, /Users/ethanharris/Documents/Mods/Module_1/src/main/resources]
+[22May2025 18:50:12.564] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[22May2025 18:50:12.571] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[22May2025 18:50:12.775] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[22May2025 18:50:14.186] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [module1]
+[22May2025 18:50:14.490] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/ethanharris/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21/forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[22May2025 18:50:14.498] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/ethanharris/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21/forge-1.21-51.0.33_mapped_parchment_1.20.6-2024.06.16-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[22May2025 18:50:14.821] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[22May2025 18:50:15.404] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 580 ms
+[22May2025 18:50:15.405] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[22May2025 18:50:15.467] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 61 ms
+[22May2025 18:50:15.468] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id module1
+[22May2025 18:50:15.483] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id module1 finished after 15 ms
+[22May2025 18:50:15.483] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id module1
+[22May2025 18:50:15.486] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id module1 finished after 2 ms
+[22May2025 18:50:15.486] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: module1
+[22May2025 18:50:15.501] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: module1 finished after 14 ms
+[22May2025 18:50:15.501] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: module1
+[22May2025 18:50:15.680] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: module1 finished after 178 ms
+[22May2025 18:50:15.680] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 860 ms
+[22May2025 18:50:15.703] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 114, old count: 87, new count: 115, removed stale: 0, written: 28

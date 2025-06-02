@@ -1,0 +1,9 @@
+{
+  "values": [
+    "module1:azurite",
+    "module1:raw_azurite",
+    "minecraft:coal",
+    "minecraft:stick",
+    "minecraft:diamond"
+  ]
+}

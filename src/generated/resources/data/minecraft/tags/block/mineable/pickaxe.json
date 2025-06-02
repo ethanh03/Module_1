@@ -1,0 +1,14 @@
+{
+  "values": [
+    "module1:azurite_block",
+    "module1:azurite_ore",
+    "module1:azurite_deepslate_ore",
+    "module1:azurite_end_ore",
+    "module1:azurite_nether_ore",
+    "module1:magic_block",
+    "module1:azurite_button",
+    "module1:azurite_pressure_plate",
+    "module1:azurite_stairs",
+    "module1:azurite_slab"
+  ]
+}

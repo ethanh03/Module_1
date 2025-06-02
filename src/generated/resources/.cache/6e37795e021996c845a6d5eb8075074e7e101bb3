@@ -1,0 +1,7 @@
+// 1.21	2025-05-22T18:50:15.690987	Tags for minecraft:block mod id module1
+fc3055465a1eebc1ed9c2ba98ffbdb9153085a8e data/minecraft/tags/block/fence_gates.json
+2c4aac2deddd85297d798b3bdf4f5758e715214f data/minecraft/tags/block/fences.json
+cf0bc053e3cfb15552a880fc0eede7a61e6fc500 data/minecraft/tags/block/mineable/pickaxe.json
+9838421ff2fa578ee8e616824fa293ffab809901 data/minecraft/tags/block/needs_diamond_tool.json
+098ba9b800798856f9066b89af4cc7aee3ca4222 data/minecraft/tags/block/needs_iron_tool.json
+babb9fef799c5984c84838ada8f82cb6b2b0726a data/minecraft/tags/block/walls.json
